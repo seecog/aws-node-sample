@@ -9,6 +9,6 @@ route.get('/test',function(req,res){
 app.use('/api',route);
 
 
-app.listen(5000,function(){
-    console.log('Server starts at 5000')
+app.listen(3001,function(){
+    console.log('Server starts at 3001')
 })
